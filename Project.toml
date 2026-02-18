@@ -15,11 +15,12 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SciMLBase = "0bcae4d3-0577-52c7-9669-b30f887c11fa"
 SciMLSensitivity = "1ed8b502-7051-40fa-945b-7833075677a2"
 
+
 [compat]
 julia = "1.10"
 QuantumOpticsBase = "0.5"
 LinearAlgebra = "1.0"
-SciMLBase = "1, 2"
+SciMLBase = "2"
 SciMLSensitivity = "7"
 OrdinaryDiffEq = "6"
 NLsolve = "4"
