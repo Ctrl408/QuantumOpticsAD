@@ -1,20 +1,19 @@
 name = "QuantumOpticsAD"
-uuid = "8ceb3a3c-6601-4354-b5f8-cfa045e9563d"
+uuid = "8ceb3a3c-5353-4710-8588-379e49755294"
+authors = ["Christy Varughese Mathew"]
 version = "0.1.0"
-authors = ["chris "]
 
 [deps]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-QuantumOpticsBase = "4f57444f-1401-5e15-980d-4471b28d5678"
+FFTW = "7a1cc6ca-4b0d-5927-9190-ebcc96c97138"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-5672a25197ac"
+NLsolve = "27745e9c-f4dc-5a3d-90c3-568323a675e2"
+OrdinaryDiffEq = "1dea7af3-3e0a-5c3c-9602-0da34447ef1e"
+QuantumOptics = "6e0679c1-c302-5326-8c4c-a116f1df1846"
+QuantumOpticsBase = "4f57444f-1785-5926-9c48-356391490251"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+SciMLBase = "0bcae4d3-0577-52c7-9669-b30f887c11fa"
+SciMLSensitivity = "1ed8b502-7051-40fa-945b-7833075677a2"
 
 [compat]
 julia = "1.10"
